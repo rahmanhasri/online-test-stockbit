@@ -7,17 +7,6 @@ services:
     - 3000:3000
     networks:
       - stockbit-movie
-  db:
-    image: mysql:5.7
-    container_name: 'db-stockbit-movie'
-    ports:
-      - 3306:3306
-    volumes:
-      - /var/lib/mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: mysqlroot
-    networks:
-      - stockbit-movie
 networks:
   stockbit-movie:
     external: true
