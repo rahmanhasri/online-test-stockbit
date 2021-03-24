@@ -8,7 +8,7 @@ Combined with https://omdbapi.com
 - Clone this repo and and go to movie-api directory
 - `npm install`
 - Fill the .env from .env.template (especially db)
-- create Database local and run `node ./src/infrastructure/db/init`
+- create Database with same from env and run `node ./src/infrastructure/db/init`
 - `npm start`
 - `npm test`
 
